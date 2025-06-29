@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Error #1: wrong root element name (should be <Hotels>) -->
+<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="Hotels.xsd">
+
+  <!-- Westin – valid -->
+  <Hotel Rating="4.2">
+    <Name>Westin</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>11</Number>
+      <Street>E 7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+  <!-- Hyatt – Error #2: missing required Rating attribute -->
+  <Hotel>
+    <Name>Hyatt Regency Scottsdale Resort &amp; Spa</Name>
+    <Phone>480-444-1234</Phone>
+    <Phone>888-888-8888</Phone>
+    <Address NearestAirport="PHX">
+      <Number>7500</Number>
+      <Street>E Doubletree Ranch Rd</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85258</Zip>
+    </Address>
+  </Hotel>
+
+  <!-- Hilton – Error #3: no Phone element -->
+  <Hotel Rating="4.0">
+    <Name>Hilton Phoenix Resort at the Peak</Name>
+    <Address NearestAirport="PHX">
+      <Number>7677</Number>
+      <Street>N 16th St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85020</Zip>
+    </Address>
+  </Hotel>
+
+  <!-- JW Marriott – Error #4: Address never closes -->
+  <Hotel Rating="4.5">
+    <Name>JW Marriott Desert Ridge Resort</Name>
+    <Phone>480-293-5000</Phone>
+    <Address NearestAirport="PHX">
+      <Number>5350</Number>
+      <Street>E Marriott Dr</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85054</Zip>
+    <!-- missing </Address> here -->
+  </Hotel>
+
+  <!-- Loews – Error #5: duplicate Name elements -->
+  <Hotel Rating="4.6">
+    <Name>Loews Ventana Canyon Resort</Name>
+    <Name>Duplicate Name</Name>
+    <Phone>520-299-2020</Phone>
+    <Address NearestAirport="TUS">
+      <Number>7000</Number>
+      <Street>N Resort Dr</Street>
+      <City>Tucson</City>
+      <State>AZ</State>
+      <Zip>85750</Zip>
+    </Address>
+  </Hotel>
+
+</Hotel> <!-- closes the incorrect root -->

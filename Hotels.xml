@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="Hotels.xsd">
+
+  <Hotel Rating="4.2">
+    <Name>Westin</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>11</Number>
+      <Street>E 7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.4">
+    <Name>Hyatt Regency Scottsdale Resort &amp; Spa</Name>
+    <Phone>480-444-1234</Phone>
+    <Phone>888-888-8888</Phone>
+    <Address NearestAirport="PHX">
+      <Number>7500</Number>
+      <Street>E Doubletree Ranch Rd</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85258</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.0">
+    <Name>Hilton Phoenix Resort at the Peak</Name>
+    <Phone>602-997-2626</Phone>
+    <Address NearestAirport="PHX">
+      <Number>7677</Number>
+      <Street>N 16th St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85020</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.5">
+    <Name>JW Marriott Desert Ridge Resort</Name>
+    <Phone>480-293-5000</Phone>
+    <Address NearestAirport="PHX">
+      <Number>5350</Number>
+      <Street>E Marriott Dr</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85054</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.6">
+    <Name>Loews Ventana Canyon Resort</Name>
+    <Phone>520-299-2020</Phone>
+    <Address NearestAirport="TUS">
+      <Number>7000</Number>
+      <Street>N Resort Dr</Street>
+      <City>Tucson</City>
+      <State>AZ</State>
+      <Zip>85750</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.5">
+    <Name>Hotel del Coronado</Name>
+    <Phone>619-435-6611</Phone>
+    <Address NearestAirport="SAN">
+      <Number>1500</Number>
+      <Street>Orange Ave</Street>
+      <City>Coronado</City>
+      <State>CA</State>
+      <Zip>92118</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.3">
+    <Name>The Venetian Resort</Name>
+    <Phone>702-414-1000</Phone>
+    <Address>
+      <Number>3355</Number>
+      <Street>S Las Vegas Blvd</Street>
+      <City>Las Vegas</City>
+      <State>NV</State>
+      <Zip>89109</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.7">
+    <Name>Four Seasons Hotel Seattle</Name>
+    <Phone>206-749-7000</Phone>
+    <Address>
+      <Number>99</Number>
+      <Street>Union St</Street>
+      <City>Seattle</City>
+      <State>WA</State>
+      <Zip>98101</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.5">
+    <Name>Fairmont Austin</Name>
+    <Phone>512-600-2000</Phone>
+    <Address>
+      <Number>101</Number>
+      <Street>Red River St</Street>
+      <City>Austin</City>
+      <State>TX</State>
+      <Zip>78701</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.6">
+    <Name>The Plaza Hotel</Name>
+    <Phone>212-759-3000</Phone>
+    <Address NearestAirport="JFK">
+      <Number>768</Number>
+      <Street>5th Ave</Street>
+      <City>New York</City>
+      <State>NY</State>
+      <Zip>10019</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.6">
+    <Name>The Breakers Palm Beach</Name>
+    <Phone>561-655-6611</Phone>
+    <Address NearestAirport="PBI">
+      <Number>1</Number>
+      <Street>S County Rd</Street>
+      <City>Palm Beach</City>
+      <State>FL</State>
+      <Zip>33480</Zip>
+    </Address>
+  </Hotel>
+
+</Hotels>
