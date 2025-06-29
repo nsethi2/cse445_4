@@ -124,16 +124,5 @@
     </Address>
   </Hotel>
 
-  <Hotel Rating="4.6">
-    <Name>The Breakers Palm Beach</Name>
-    <Phone>561-655-6611</Phone>
-    <Address NearestAirport="PBI">
-      <Number>1</Number>
-      <Street>S County Rd</Street>
-      <City>Palm Beach</City>
-      <State>FL</State>
-      <Zip>33480</Zip>
-    </Address>
-  </Hotel>
 
 </Hotels>
