@@ -79,7 +79,7 @@
   <Hotel Rating="4.3">
     <Name>The Venetian Resort</Name>
     <Phone>702-414-1000</Phone>
-    <Address>
+    <Address NearestAirport="LAS">
       <Number>3355</Number>
       <Street>S Las Vegas Blvd</Street>
       <City>Las Vegas</City>
@@ -91,7 +91,7 @@
   <Hotel Rating="4.7">
     <Name>Four Seasons Hotel Seattle</Name>
     <Phone>206-749-7000</Phone>
-    <Address>
+    <Address NearestAirport="SEA">
       <Number>99</Number>
       <Street>Union St</Street>
       <City>Seattle</City>
@@ -103,7 +103,7 @@
   <Hotel Rating="4.5">
     <Name>Fairmont Austin</Name>
     <Phone>512-600-2000</Phone>
-    <Address>
+    <Address NearestAirport="AUS">
       <Number>101</Number>
       <Street>Red River St</Street>
       <City>Austin</City>
@@ -123,6 +123,5 @@
       <Zip>10019</Zip>
     </Address>
   </Hotel>
-
 
 </Hotels>
